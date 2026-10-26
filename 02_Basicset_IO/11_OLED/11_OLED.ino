@@ -19,13 +19,15 @@ void setup()
 
   display.clearDisplay();
 
-  display.setTextSize(1);
+  display.setTextSize(2);
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 5);
-  display.print(F("Monster Hunter"));
-  display.setCursor(0, 25);
+  display.print(F("Monster"));
+  display.setCursor(0,20);
+  display.print(F("Hunter"));
+  display.setCursor(0, 35);
   display.print(F("Wilds"));
-  display.setCursor(0, 45);
+  display.setCursor(0, 50);
   display.print(F("Ascendance"));
 
   display.display();
