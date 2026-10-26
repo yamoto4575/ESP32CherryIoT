@@ -19,14 +19,14 @@ void setup()
 
   display.clearDisplay();
 
-  display.setTextSize(2);
+  display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 5);
-  display.print(F("Hello"));
+  display.print(F("Monster Hunter"));
   display.setCursor(0, 25);
-  display.print(F("ESP32"));
+  display.print(F("Wilds"));
   display.setCursor(0, 45);
-  display.print(F("CherryIoT"));
+  display.print(F("Ascendance"));
 
   display.display();
 }
